@@ -3,18 +3,18 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Heic2Any</title>
+    <title>Heic Converter</title>
     <link rel="stylesheet" href="fss.css">
     <link rel="stylesheet" href="output.css">
 </head>
-    <body style="margin: 0; padding: 0; background-color: rgb(164, 164, 164);">
+    <body style="margin: 0; padding: 0; background-color: rgb(210, 210, 210);">
         <div class="fileSelectScreen" id="fss">
             <h1>Heic to Png</h1>
             <input type="file" multiple id="input">
-            <button type="button">Convert</button>
+            <button type="button" onclick="uploadFiles()" id="convertButton">Convert</button>
         </div>
         <div class="output" id="target">
-            
+
         </div>
         <script src="heic2any.js"></script>
         <script src="converter.js"></script>
