@@ -7,14 +7,12 @@
     <link rel="stylesheet" href="fss.css">
     <link rel="stylesheet" href="output.css">
 </head>
-    <body style="margin: 0; padding: 0; background-color: rgb(210, 210, 210);">
+    <body style="margin: 0; padding: 0; background-color: rgb(210, 210, 210);" id="page">
         <div class="fileSelectScreen" id="fss">
             <h1>Heic to Png</h1>
             <input type="file" multiple id="input">
             <button type="button" onclick="uploadFiles()" id="convertButton">Convert</button>
-        </div>
-        <div class="output" id="target">
-
+            <h3 id="progress">Files Downloaded: 0/0</h3>
         </div>
         <script src="heic2any.js"></script>
         <script src="converter.js"></script>
