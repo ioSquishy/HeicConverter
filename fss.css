@@ -1,7 +1,5 @@
 .fileSelectScreen {
     position: absolute;
-    /* min-width: 40vw; */
-    /* min-height: 35vh; */
     width: fit-content;
     height: fit-content;
     background-color: white;

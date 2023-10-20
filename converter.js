@@ -31,7 +31,6 @@ function uploadFiles() {
         return;
     } else {
         currentlyDownloading = true;
-        
     }
     const files = [...fileInput.files];
     filesToDownload = files.length;
